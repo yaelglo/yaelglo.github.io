@@ -1,0 +1,9 @@
+.tools/
+reference-videos/
+research/video-review/
+__pycache__/
+.build/
+dist/
+*.zip
+research/*.png
+research/frame-*.jpg

@@ -1,0 +1,38 @@
+/* Case-study presentation only; portfolio.css supplies the shared identity. */
+.case-page main{width:min(1080px,calc(100% - 64px));margin-inline:auto}
+.case-introduction{padding:32px 0 38px 220px}
+.case-introduction .back{margin-bottom:30px}
+.case-introduction h1{font-size:clamp(42px,5.5vw,70px);line-height:1.1;letter-spacing:-2.5px;margin:0 0 15px}
+.case-introduction h1 span{color:#ad7cf7}
+.case-premise{font-size:22px;line-height:1.5;letter-spacing:-.5px;max-width:38ch;margin-bottom:13px}
+.case-introduction .case-deck{color:var(--amber);font-size:12px;margin-bottom:25px}
+.case-lede,.case-goals{max-width:65ch;font-size:15px;line-height:1.85;color:var(--muted)}
+.case-gameplay{margin:30px 0 25px;max-width:780px}
+.case-gameplay img{border:1px solid #584366;padding:6px;border-radius:7px}
+.case-facts{display:grid;grid-template-columns:1fr 1.8fr 1fr;gap:22px;padding-top:22px;border-top:1px solid var(--line)}
+.case-facts div:last-child{grid-column:3}
+.case-contents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 30px;margin:0 0 20px 220px;padding:22px 0;border-block:1px solid #4a3b56}
+.case-contents .eyebrow{grid-column:1/-1;margin:0 0 5px;font-size:10px}
+.case-contents a{display:flex;align-items:baseline;gap:12px;font-size:12px;line-height:1.5;color:#d0c6dc}
+.case-contents a span{color:var(--amber);font-size:10px}
+.case-chapter{display:grid;grid-template-columns:180px minmax(0,1fr);gap:40px;padding:40px 0;border-bottom:1px solid var(--line);scroll-margin-top:24px}
+.chapter-heading .eyebrow{color:var(--amber);margin-bottom:11px}
+.chapter-heading h2{font-size:22px;line-height:1.4;letter-spacing:-.4px;color:#ddd0ef}
+.chapter-content{min-width:0;max-width:68ch}
+.chapter-content p{font-size:15px;line-height:1.85;color:#bdbac5;margin-bottom:18px}
+.chapter-content h3{font-size:20px;line-height:1.45;letter-spacing:-.4px;margin:30px 0 17px;color:var(--ink)}
+.chapter-content h3:first-child{margin-top:0}
+.chapter-content strong{font-weight:650;color:#e3d9ef}
+.chapter-content ul{padding-left:20px;color:#c4bdcd;font-size:14px;line-height:1.85;margin:20px 0 26px}
+.chapter-content li{margin-bottom:9px;padding-left:4px}
+.chapter-content li::marker{color:#b48ae8}
+.chapter-content .authorship-note{border-left:2px solid var(--violet);padding:14px 18px;background:#211d2a;color:#e1d8ed}
+.chapter-content .decision-callout{border-left:2px solid var(--amber);padding:13px 20px;font-size:20px;line-height:1.6;margin-block:25px}
+.chapter-content .button{margin-bottom:18px}
+.chapter-content .decision-detail>strong:first-child{color:var(--amber);font-size:12px;font-weight:650}
+.chapter-content .milestone-image{margin:26px 0 32px;max-width:100%}
+.milestone-image img{padding:5px;background:#222326;border:1px solid #493b54;border-radius:6px;height:auto}
+.milestone-image figcaption{font-size:11px;line-height:1.6;color:#bbb2c8;margin-top:10px}
+#play{border-bottom:0;padding-bottom:50px}
+@media(max-width:1000px){.case-introduction{padding-left:170px}.case-contents{margin-left:170px}.case-chapter{grid-template-columns:140px minmax(0,1fr);gap:30px}.chapter-heading h2{font-size:20px}.case-facts{grid-template-columns:1fr 1.6fr}.case-facts div:last-child{grid-column:auto}}
+@media(max-width:760px){.case-page main{width:calc(100% - 36px)}.case-introduction{padding:24px 0 30px}.case-introduction h1{font-size:clamp(36px,9vw,55px);letter-spacing:-1.5px}.case-premise{font-size:20px}.case-lede,.case-goals{font-size:15px}.case-contents{margin:0;grid-template-columns:1fr;gap:12px;padding-block:20px}.case-chapter{display:block;padding:30px 0}.chapter-heading .eyebrow{margin-bottom:8px}.chapter-heading h2{font-size:25px;margin-bottom:25px}.chapter-content h3{font-size:19px}.chapter-content .decision-callout{font-size:18px}.case-facts{gap:20px}.case-page header{height:auto;min-height:74px;gap:18px;padding-block:16px}.case-page header nav{flex-wrap:wrap;justify-content:flex-end;gap:10px 14px}.case-gameplay figcaption{font-size:10px}}
