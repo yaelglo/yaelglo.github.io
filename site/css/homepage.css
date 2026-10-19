@@ -86,7 +86,7 @@ img { display: block; width: 100%; height: auto; }
 .skill-groups { display:grid; grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); gap:24px; margin-bottom:19px; }
 .skill-groups h3 { font-size:13px; color:#d8c6ee; margin-bottom:9px; }
 .skill-list { display:flex; flex-wrap:wrap; gap:8px; list-style:none; padding:0; margin:0; color:#e4e0e9; font-size:14px; }
-.skill-list li { padding:5px 12px; border:1px solid #574568; border-radius:999px; background:#26212d; line-height:1.5; }
+.skill-list li { padding:2px 12px; border:1px solid #574568; border-radius:999px; background:#26212d; line-height:1.5; }
 .tools-content p { max-width:65ch; font-size:14px; color:var(--muted); margin:0; }
 /* Education is a quiet inset surface with amber used only as a small label. */
 .education { display: grid; grid-template-columns: minmax(0,.85fr) minmax(0,1.5fr); gap: 38px; margin-block: 28px 0; padding: 30px 0 35px; background: transparent; border-radius: 0; border-top: 1px solid #816542; border-left: 0; }
